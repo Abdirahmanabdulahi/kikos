@@ -1,0 +1,301 @@
+
+/* CSS changes the Appearance */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: blueviolet;
+  display: flex;
+ justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+#realcountenar{
+  display: block;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(215, 185, 149);
+  color: black;
+  padding: 30px;
+  margin: 10px;
+
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .9);
+}
+
+#realcountenar h2{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; 
+}
+
+#realcountenar .Text-area{
+  background-color: rgb(186, 185, 182);
+  resize: none;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: solid 2px darkblue;
+  margin-bottom: 15px;
+
+}
+
+.counter-container{
+display: flex;
+font-size: 15px;
+justify-content: space-between;
+}
+
+.counter-container #ptotalchracter{
+color: rgb(51, 5, 234);
+}
+
+.counter-container #ptotalchracter span{
+  color:green;
+}
+
+.counter-container .ptotalchracter{
+color: rgb(128, 0, 100);
+}
+
+.counter-container .ptotalchracter span{
+color: rgb(247, 6, 6);
+}
+
+/* Ende Real-Time counter CSS */
+
+
+
+/* Start Here Degital Clock CSS */
+.DegitalClock{
+
+background-color: rgb(7, 163, 241);
+
+box-shadow: 4px 8px rgba(0, 0, 0, .2);
+
+
+display: block;
+width: 400px;
+height: 250px;
+
+padding: 30px;
+margin: 10px;
+
+border-radius: 15px;
+
+}
+
+.DegitalClock h2{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color:rgb(246, 5, 5);
+}
+.spandiv{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.spandiv{
+  color: rgb(242, 242, 244);
+}
+
+.spandiv #Txt {
+  color: rgb(24, 24, 214);
+}
+
+/* End Here Degital Clock CSS */
+
+
+
+/* Start Here Subscribe Buttom CSS */
+.SubscribeButtom{
+  background-color: rgb(43, 226, 125);
+  color: brown;
+  padding-top: 80px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 400px;
+  height: 250px;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .9);
+}
+
+.SubscribeButtom .btn-Subscribe button{
+  
+ background-color: red;
+ color: white;
+ padding-top: 30xp;
+ padding: 4px;
+ width: 50%;
+ border: none;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+
+.SubscribeButtom h2{
+  padding-top: 50px;
+}
+
+.SubscribeButtom .btn-Subscribe button:hover{
+ background-color: rgb(123, 118, 118);
+ color: #f8f3f3;
+ 
+}
+/* End Here Subscribe Buttom CSS */
+
+
+
+/* Start Here Add Del Edit CSS */
+
+.AddButtom{
+  background-color: rgb(77, 85, 125);
+  color: rgb(243, 237, 237);
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 400px;
+  height: 250px;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .9);
+}
+.AddButtom #inputt{
+  background-color: rgb(186, 185, 182);
+  border: solid 2px darkblue;
+ padding: 4px;
+ width: 60%;
+ border: none;
+ margin-top: 10px;
+}
+
+.AddButtom #Addbtn{
+  background-color: green;
+  color: white;
+  padding: 4px;
+  width: 30%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+ }
+
+.AddButtom #Editbtn{
+  margin-left: 60%;
+  background-color: rgb(248, 8, 8);
+  color: white;
+  padding: 4px;
+  width: 30%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+ }
+ 
+.AddButtom #Delbtn{
+  margin-left: 60%;
+  background-color: rgb(254, 3, 45);
+  color: white;
+  padding: 4px;
+  width: 30%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+ }
+
+ .AddButtom #Addbtn:hover{
+ background-color: rgb(123, 118, 118);
+ color: #f8f3f3;
+
+}
+
+/* End Here Add CSS  */
+
+
+
+
+/* Start Here Loan Calculator CSS  */
+.loanCal{
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: darkcyan;
+ 
+  color: white;
+  margin: 50px;
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+}
+
+.loanCal h2{
+ color: rgb(33, 4, 6);
+ margin: 5px;
+ text-align: center;
+}
+
+.loanCal #prag{
+margin: 10px; 
+}
+
+.loanCal #prag input{
+  background-color: rgb(186, 185, 182);
+  border: solid 2px rgb(105, 2, 66);
+width: 100%;
+padding: 4px;
+}
+
+/* End Here Loan Calculator CSS  */
+
+
+
+
+
+/* Start Here Zakah Calculator CSS  */
+
+.zakahcal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #45a049;
+}
+/* End Here Zakah Calculator CSS  */
+
