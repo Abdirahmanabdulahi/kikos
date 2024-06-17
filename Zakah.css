@@ -299,3 +299,33 @@ button:hover {
 }
 /* End Here Zakah Calculator CSS  */
 
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .zakahCal h2 {
+    font-size: 1.2em;
+  }
+
+  .zakahCal input[type="text"] {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .zakahCal h2 {
+    font-size: 1em;
+  }
+
+  .zakahCal input[type="text"] {
+    padding: 6px;
+  }
+}
+
+
