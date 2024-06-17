@@ -42,6 +42,10 @@ body {
   border-color: #007bff;
 }
 
+.zakahCal input[type="text"]::placeholder {
+  text-align: center; /* Center the placeholder text */
+}
+
 label {
   display: block;
   margin: 10px 0 5px;
