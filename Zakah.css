@@ -25,6 +25,14 @@ body {
   text-align: center;
 }
 
+.circle-img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
 .zakahCal h2 {
   margin-bottom: 20px;
   font-size: 1.5em;
